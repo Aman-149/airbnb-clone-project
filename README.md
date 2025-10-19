@@ -40,3 +40,17 @@ Learners gain hands-on experience with modern frameworks and workflows used in r
 | 📚 **Documentation Specialist** | Maintains all documentation including README, setup guides, and API references. |
 
 ---
+## 🧰 Technology Stack
+
+| **Technology** | **Purpose** |
+|----------------|-------------|
+| 🐍 **Django** | Backend web framework for building APIs and handling business logic. |
+| 🛢️ **MySQL** | Relational database system for structured data storage. |
+| ⚡ **GraphQL** | Query language for APIs allowing flexible data fetching. |
+| 🐳 **Docker** | Containerization tool ensuring environment consistency. |
+| 🔁 **GitHub Actions** | CI/CD automation for testing, building, and deploying the app. |
+| 🚀 **Nginx / Gunicorn** | Web and WSGI servers for production deployment. |
+| 🔐 **JWT (JSON Web Tokens)** | Handles secure user authentication and authorization. |
+| 🧩 **Postman / Swagger** | Used for API testing and auto-generated documentation. |
+
+---
