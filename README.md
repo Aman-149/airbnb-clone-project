@@ -99,3 +99,19 @@ Learners gain hands-on experience with modern frameworks and workflows used in r
 | 🛠️ **Admin Dashboard** | Admin monitors users, properties, payments, and reviews. |
 
 ---
+## 🔐 API Security
+
+| **Measure** | **Purpose** |
+|--------------|-------------|
+| **Authentication & Authorization** | Implemented using JWT to secure endpoints. |
+| **Input Validation** | Prevents SQL injection and XSS attacks. |
+| **Rate Limiting** | Limits excessive API calls to protect against brute force attacks. |
+| **HTTPS & Secure Headers** | Encrypts data in transit and adds protective headers. |
+| **Role-Based Access Control (RBAC)** | Grants access based on user roles (Admin, Host, Guest). |
+
+**Why Security Matters:**
+- Protects sensitive user and payment data.  
+- Prevents unauthorized access and data breaches.  
+- Ensures trust, reliability, and system integrity.
+
+---
