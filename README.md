@@ -132,3 +132,14 @@ A **CI/CD pipeline** automates code integration, testing, and deployment, ensuri
 - ☁️ **AWS / Render / DigitalOcean (optional):** Hosting and scaling the deployed app.
 
 ---
+## 📦 Repository Information
+- **Repository Name:** `airbnb-clone-project`  
+- **Main File:** `README.md`  
+- **Visibility:** Public  
+
+---
+
+
+
+> **Author:** [Your Name](https://github.com/Aman-149)  
+> **Repository:** [airbnb-clone-project](https://github.com/Aman-149/airbnb-clone-project)
