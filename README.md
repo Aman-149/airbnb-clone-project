@@ -115,3 +115,20 @@ Learners gain hands-on experience with modern frameworks and workflows used in r
 - Ensures trust, reliability, and system integrity.
 
 ---
+## 🔄 CI/CD Pipeline
+
+**Overview:**  
+A **CI/CD pipeline** automates code integration, testing, and deployment, ensuring smooth and consistent delivery.
+
+**Benefits:**
+- Early detection of bugs through automated testing.  
+- Faster deployment with minimal human intervention.  
+- Continuous delivery of updates without downtime.
+
+**Tools Used:**
+- 🧩 **GitHub Actions:** Workflow automation for testing and deployment.  
+- 🐳 **Docker:** Containerized builds for consistency.  
+- 🌐 **Nginx:** Reverse proxy for serving production traffic.  
+- ☁️ **AWS / Render / DigitalOcean (optional):** Hosting and scaling the deployed app.
+
+---
