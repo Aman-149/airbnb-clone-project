@@ -86,3 +86,16 @@ Learners gain hands-on experience with modern frameworks and workflows used in r
 - **Booking → Payment:** One-to-One  
 
 ---
+## ⚙️ Feature Breakdown
+
+| **Feature** | **Description** |
+|--------------|-----------------|
+| 👤 **User Management** | Handles user registration, authentication (JWT), and profiles. |
+| 🏡 **Property Management** | Hosts can add, update, and remove property listings. |
+| 📅 **Booking System** | Users can book available properties and view booking history. |
+| ⭐ **Review System** | Guests can leave ratings and comments on properties. |
+| 💳 **Payment Integration** | Securely processes payments and stores transaction records. |
+| 🔍 **Search & Filter** | Filters listings based on location, price, and date. |
+| 🛠️ **Admin Dashboard** | Admin monitors users, properties, payments, and reviews. |
+
+---
