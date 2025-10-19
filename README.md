@@ -54,3 +54,35 @@ Learners gain hands-on experience with modern frameworks and workflows used in r
 | 🧩 **Postman / Swagger** | Used for API testing and auto-generated documentation. |
 
 ---
+## 🗃️ Database Design
+
+**Key Entities & Fields:**
+
+1. **Users**
+   - `id`, `username`, `email`, `password_hash`, `role`, `date_joined`
+   - A user can own multiple properties and make multiple bookings.
+
+2. **Properties**
+   - `id`, `owner_id`, `title`, `description`, `location`, `price_per_night`
+   - Each property belongs to one user and can have multiple bookings and reviews.
+
+3. **Bookings**
+   - `id`, `user_id`, `property_id`, `check_in`, `check_out`, `total_price`
+   - A booking belongs to both a property and a user.
+
+4. **Reviews**
+   - `id`, `user_id`, `property_id`, `rating`, `comment`, `created_at`
+   - Each review is linked to a property and a user.
+
+5. **Payments**
+   - `id`, `booking_id`, `amount`, `payment_method`, `status`, `transaction_date`
+   - Each payment is tied to one booking.
+
+**Entity Relationships:**
+- **User → Property:** One-to-Many  
+- **User → Booking:** One-to-Many  
+- **Property → Booking:** One-to-Many  
+- **Property → Review:** One-to-Many  
+- **Booking → Payment:** One-to-One  
+
+---
